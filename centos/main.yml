@@ -1,0 +1,5 @@
+- hosts: docker 
+  roles: 
+   #  - { role: docker-centos7, become: yes }
+     - { role: docker-create-container, become: yes }
+
